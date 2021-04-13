@@ -32,7 +32,7 @@ class DbOperation
 		$stmt->execute();
 		$stmt->bind_result($id, $nome, $ator, $posto, $patente);
 		
-		$heroes = array(); 
+		$personagens = array(); 
 		
 		while($stmt->fetch()){
 			$personagen  = array();
