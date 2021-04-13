@@ -35,12 +35,12 @@ class DbOperation
 		$personagens = array(); 
 		
 		while($stmt->fetch()){
-			$personagen  = array();
-			$personagen['id'] = $id; 
-			$personagen['nome'] = $nome; 
-			$personagen['ator'] = $ator; 
-			$personagen['posto'] = $posto; 
-			$personagen['patente'] = $patente; 
+			$personagem  = array();
+			$personagem['id'] = $id; 
+			$personagem['nome'] = $nome; 
+			$personagem['ator'] = $ator; 
+			$personagem['posto'] = $posto; 
+			$personagem['patente'] = $patente; 
 			
 			array_push($personagens, $personagem); 
 		}
